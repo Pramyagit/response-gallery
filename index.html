@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Photo Gallery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100">
+    <div class="container mx-auto p-6">
+      <h1 class="text-3xl font-bold text-gray-800 mb-6 text-center">
+        Photo Gallery
+      </h1>
+
+      <!-- Filter Buttons -->
+      <div class="flex justify-center gap-4 mb-6">
+        <button
+          class="filter-btn bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
+          data-category="all"
+        >
+          All
+        </button>
+        <button
+          class="filter-btn bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
+          data-category="nature"
+        >
+          Nature
+        </button>
+        <button
+          class="filter-btn bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
+          data-category="architecture"
+        >
+          Architecture
+        </button>
+        <button
+          class="filter-btn bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
+          data-category="tech"
+        >
+          Tech
+        </button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div
+        id="gallery"
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+      >
+        <!-- Gallery Item -->
+
+        <!-- <div
+        class="gallery-item bg-white shadow-md rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105"
+        data-category="nature"
+      >
+        <img
+          src="./image/forest-4605204_1280.jpg"
+          alt="images"
+          class="w-full h-48 object-cover"
+        />
+        <div class="p-4">
+          <h2 class="text-lg font-semibold text-gray-800">Nature</h2>
+          <p class="text-gray-600 capitalize">nature</p>
+        </div>
+      </div> -->
+
+        <!-- Repeat Add more items as needed -->
+      </div>
+    </div>
+
+    <script src="./main.js">
+      // javascript to filter data-fetch
+    </script>
+  </body>
+</html>

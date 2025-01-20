@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Nature 1",
+    "category": "nature",
+    "imageUrl": "./image/forest-4605204_1280.jpg"
+  },
+  {
+    "title": "Nature 2",
+    "category": "nature",
+    "imageUrl": "./image/blue-8341156_1280.jpg"
+  },
+  {
+    "title": "Nature 3",
+    "category": "nature",
+    "imageUrl": "./image/monkey-8429737_1280.webp"
+  },
+  {
+    "title": "Nature 4",
+    "category": "nature",
+    "imageUrl": "./image/mountain-8047293_1280.webp"
+  },
+  {
+    "title": "Nature 5",
+    "category": "nature",
+    "imageUrl": "./image/waterfall-5229807_1280.jpg"
+  },
+  {
+    "title": "Architecture 1",
+    "category": "architecture",
+    "imageUrl": "./image/city-6931092_1280.webp"
+  },
+  {
+    "title": "Architecture 2",
+    "category": "architecture",
+    "imageUrl": "./image/catholic-church-8167850_1280.webp"
+  },
+  {
+    "title": "Architecture 3",
+    "category": "architecture",
+    "imageUrl": "./image/thomas-jefferson-memorial-1026946_1280.webp"
+  },
+  {
+    "title": "Architecture 4",
+    "category": "architecture",
+    "imageUrl": "./image/sketch-5622725_1280.webp"
+  },
+  {
+    "title": "Tech 1",
+    "category": "tech",
+    "imageUrl": "./image/ai-generated-7818581_1280.webp"
+  },
+  {
+    "title": "Tech 2",
+    "category": "tech",
+    "imageUrl": "./image/digital-8766937_1280.webp"
+  },
+  {
+    "title": "Tech 3",
+    "category": "tech",
+    "imageUrl": "./image/technology-7111757_1280.webp"
+  },
+  {
+    "title": "Tech 4",
+    "category": "tech",
+    "imageUrl": "./image/network-8303719_1280.webp"
+  }
+]
